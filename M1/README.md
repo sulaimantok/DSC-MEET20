@@ -3,12 +3,15 @@
 
 ## Meeting-01, 4 Januari 2019
 
+
 ## Requirement :
 1. Laptop
 2. Software Virtual Box [Virtualbox Download](https://www.virtualbox.org/wiki/Downloads)
 3. Operating System File installation
 
+Presentation [this](http://bit.ly/m1-present)
 source Materials [this](http://bit.ly/m1-materials)
+
 ## Langkah-Langkah:
 
 1. Install virtual box
