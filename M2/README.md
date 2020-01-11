@@ -165,7 +165,7 @@ mysql -u root -p
 
 Enter saja tanpa memasukan password
 
-lalu tuliskan perintah sesuai dengan file **database.sql**
+lalu tuliskan perintah sesuai dengan yang ada pada file **database.sql**
 
 5. Jika sudah coba check pada Browser dengan mengakses aplikasi tersebut
 
