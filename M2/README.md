@@ -1,6 +1,6 @@
 ## Meet ke-dua
 
-Pada pertemuan kali ini, akan fokus mempelajari bagaimana mendeploy aplikasi sederhana pada cloud, lebih mengarah kali ini di Compute Engine (VM)
+Pada pertemuan kali ini, akan fokus mempelajari bagaimana mendeploy aplikasi sederhana pada cloud, Dengan menggunakan Metode LAMP(Linux, Apache, MySQL, dan PHP)
 
 ## Persyaratan :
  - [x] Sudah install virtual box
