@@ -3,10 +3,10 @@
 Pada pertemuan kali ini, akan fokus mempelajari bagaimana mendeploy aplikasi sederhana pada cloud, lebih mengarah kali ini di Compute Engine (VM)
 
 ## Persyaratan :
- - sudah install virtual box
- - Internet
- - Bisa gunakan Compute engine jika belum install virtualbox (membutuhkan internet lebih dan akses)
- - sudah menginstall salah satu server(eq. ubuntu 16.04)
+ - [v]sudah install virtual box
+ - [v]Internet
+ - [v]Bisa gunakan Compute engine jika belum install virtualbox (membutuhkan internet lebih dan akses)
+ - [v]sudah menginstall salah satu server(eq. ubuntu 16.04)
 
 
 ## Step 
@@ -130,10 +130,14 @@ cd /var/www/html
 nano config.php
 ```
 
-| $databaseHost = '10.10.10.20'; |
-| $databaseName = 'test'; |
-| $databaseUsername = 'root'; |
-| $databasePassword = ''; |
+Ubah sesui ketentuan berikut
+
+| variables | value |
+| ------------- | ------------- |
+| $databaseHost | '10.10.10.20'  |
+| $databaseName | 'test' |
+| $databaseUsername | 'root' |
+| $databasePassword | '' |
 
 tekan **ctrl+w dan y** setelah selesai mengedit
 
