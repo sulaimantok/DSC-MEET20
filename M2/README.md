@@ -3,10 +3,10 @@
 Pada pertemuan kali ini, akan fokus mempelajari bagaimana mendeploy aplikasi sederhana pada cloud, lebih mengarah kali ini di Compute Engine (VM)
 
 ## Persyaratan :
- - [x]sudah install virtual box
- - [x]Internet
- - [x]Bisa gunakan Compute engine jika belum install virtualbox (membutuhkan internet lebih dan akses)
- - [x]sudah menginstall salah satu server(eq. ubuntu 16.04)
+ - [x] Sudah install virtual box
+ - [x] Internet
+ - [x] Bisa gunakan Compute engine jika belum install virtualbox (membutuhkan internet lebih dan akses)
+ - [x] Sudah menginstall salah satu server(eq. ubuntu 16.04)
 
 
 ## Step 
