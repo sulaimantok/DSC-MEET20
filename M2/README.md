@@ -3,10 +3,10 @@
 Pada pertemuan kali ini, akan fokus mempelajari bagaimana mendeploy aplikasi sederhana pada cloud, lebih mengarah kali ini di Compute Engine (VM)
 
 ## Persyaratan :
- - [v]sudah install virtual box
- - [v]Internet
- - [v]Bisa gunakan Compute engine jika belum install virtualbox (membutuhkan internet lebih dan akses)
- - [v]sudah menginstall salah satu server(eq. ubuntu 16.04)
+ - [x]sudah install virtual box
+ - [x]Internet
+ - [x]Bisa gunakan Compute engine jika belum install virtualbox (membutuhkan internet lebih dan akses)
+ - [x]sudah menginstall salah satu server(eq. ubuntu 16.04)
 
 
 ## Step 
@@ -41,7 +41,8 @@ Ada 2 opsi untuk dalam Hand's On kali ini, yaitu dengan VirtualBox(Laptop sendir
 	- Region : asia-southeast1
 	- Machine-type : g1-small
 	- boot disk : Ubuntu 16 LTS
-	- Firewall : [v] Allow HTTP trafic
+	- Firewall : 
+		- [x] Allow HTTP trafic
 3. Klik **Create**
 
 ### 2. Akses Virtual Machine
@@ -134,10 +135,10 @@ Ubah sesui ketentuan berikut
 
 | variables | value |
 | ------------- | ------------- |
-| $databaseHost | '10.10.10.20'  |
-| $databaseName | 'test' |
-| $databaseUsername | 'root' |
-| $databasePassword | '' |
+| $databaseHost | 10.10.10.20  |
+| $databaseName | test |
+| $databaseUsername | root |
+| $databasePassword |  |
 
 tekan **ctrl+w dan y** setelah selesai mengedit
 
@@ -170,8 +171,7 @@ lalu tuliskan perintah sesuai dengan file **database.sql**
 
 
 Jika ada yang perlu ditanyakan, bisa ke 
-- Rahmdillah Maulana
-Atau ke saya di
 - Telegram  : @sulaiman_26
+- Rahmadillah Maulana
 
 Apabila ada command atau syntax yang salah, typo, atau sudah tidak work, silahkan hubungi saya.
