@@ -142,13 +142,12 @@ Default konfiguarsi
 | ------------- | ------------- |
 | $databaseHost | 10.10.10.20  |
 | $databaseName | test |
-| $databaseUsername | root |
-| $databasePassword |  |
-|------------------|-----------|
+| $databaseUsername | root/user_name |
+| $databasePassword |  /password|
 
 tekan **ctrl+w dan y** setelah selesai mengedit
 
-catatan : untuk ip internal pada Compute Engine, bisa dilihat pada dashboard Compute Engine GCP ada keterangan **Internal IP**
+catatan : untuk ip internal pada Compute Engine, bisa dilihat pada dashboard Compute Engine GCP ada keterangan **Internal IP**, dan juga jika tidak bisa menggunakan default user yaitu root, bisa buat user baru dulu pada mysql-server, karena dalam beberapa mesin/VM ada error atau tidak dapat akses.
 
 3. Setelah selesai Coba akse pada browser alamat dari instance pertama tersebut(IP Eksternal), untuk yang menggunakan Virtualbox, bisa check dengan
 
