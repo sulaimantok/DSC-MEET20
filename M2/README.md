@@ -98,7 +98,11 @@ Lakukan hal yang sama juga pada Mesin kedua hanya ubah beberapa hal, pada file c
 ```
 sudo apt-get install apache2 php libapache2-mod-php
 ```
+note: Jika ada php-myql tidak terinstall otomatis, maka tambahkan manual
 
+```
+sudo apt-get install php-mysql
+```
 Kita juga dapat menggunakan nginx, karena kita menggunakan ubuntu 16.04, beberapa ada yang crash perlu advance configurasi jadi kita menggunakan Apache
 
 2. Check dengan komen berikut
