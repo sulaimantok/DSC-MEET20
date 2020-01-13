@@ -137,6 +137,7 @@ nano config.php
 
 Ubah sesui ketentuan berikut
 Default konfiguarsi
+
 | variables | value |
 | ------------- | ------------- |
 | $databaseHost | 10.10.10.20  |
@@ -144,14 +145,6 @@ Default konfiguarsi
 | $databaseUsername | root |
 | $databasePassword |  |
 |------------------|-----------|
-Jika, menggunuakan user baru : 
-|-------------------|-------|
-| variables | value |
-| ------------- | ------------- |
-| $databaseHost | 10.10.10.20  |
-| $databaseName | test |
-| $databaseUsername | nama_user |
-| $databasePassword | password |
 
 tekan **ctrl+w dan y** setelah selesai mengedit
 
