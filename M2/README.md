@@ -143,8 +143,9 @@ Default konfiguarsi
 | $databaseName | test |
 | $databaseUsername | root |
 | $databasePassword |  |
-
+|------------------|-----------|
 Jika, menggunuakan user baru : 
+|-------------------|-------|
 | variables | value |
 | ------------- | ------------- |
 | $databaseHost | 10.10.10.20  |
