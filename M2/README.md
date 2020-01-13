@@ -81,7 +81,7 @@ ip addr
 
 lihat pada penamaan network interface yang kedua, ingat atau catat.
 
-2. Rubah configurasi dan Jalankan
+2. Rubah Konfigurasi dan Jalankan
 
 ```
 nano ipconfiguration.sh
@@ -89,7 +89,7 @@ chmod +x ipconfiguration.sh
 sh ipconfiguration.sh
 ```
 
-Lakukan hal yang sama juga pada Mesin kedua hanya ubah beberapa hal, pada file configurasi ada penjelasan. Pada Compute Engine tidak perlu di konfigurasi karena otomatis
+Lakukan hal yang sama juga pada Mesin kedua hanya ubah beberapa hal, pada file konfigurasi ada penjelasan. Pada Compute Engine tidak perlu di konfigurasi karena otomatis
 
 ### 4. Install Package 
 
@@ -103,7 +103,7 @@ note: Jika ada php-myql tidak terinstall otomatis, maka tambahkan manual
 ```
 sudo apt-get install php-mysql
 ```
-Kita juga dapat menggunakan nginx, karena kita menggunakan ubuntu 16.04, beberapa ada yang crash perlu advance configurasi jadi kita menggunakan Apache
+Kita juga dapat menggunakan nginx, karena kita menggunakan ubuntu 16.04, beberapa ada yang crash perlu advance konfigurasi jadi kita menggunakan Apache
 
 2. Check dengan komen berikut
 
@@ -136,13 +136,21 @@ nano config.php
 ```
 
 Ubah sesui ketentuan berikut
-
+Default konfiguarsi
 | variables | value |
 | ------------- | ------------- |
 | $databaseHost | 10.10.10.20  |
 | $databaseName | test |
 | $databaseUsername | root |
 | $databasePassword |  |
+
+Jika, menggunuakan user baru : 
+| variables | value |
+| ------------- | ------------- |
+| $databaseHost | 10.10.10.20  |
+| $databaseName | test |
+| $databaseUsername | nama_user |
+| $databasePassword | password |
 
 tekan **ctrl+w dan y** setelah selesai mengedit
 
@@ -166,7 +174,13 @@ sudo service apache2 restart
 ```
 mysql -u root -p
 ```
-
+membuat user dan password
+```
+mysql >CREATE USER "nama_user"@"10.10.10.20"   IDENTIFIED BY   "password" ;
+GRANT ALL PRIVILEGES ON * . * TO "nama_user"@"10.10.10.20"
+FLUSH PRIVILEGES
+```
+note: dibeberapa konfigurasi seperti pada Compute Engine memerlukan user baru karena masalah firewall.
 Enter saja tanpa memasukan password
 
 lalu tuliskan perintah sesuai dengan yang ada pada file **database.sql**
