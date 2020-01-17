@@ -9,8 +9,9 @@ Pada pertemuan kali ini, akan fokus mempelajari bagaimana mendeploy aplikasi sed
  - [x] Sudah menginstall salah satu server(eq. ubuntu 16.04)
 
 
-## Step 
-Untuk gambaran pengerjaan ada di sini [topo](topology.png)
+## Step
+Untuk gambaran pengerjaan ada di sini
+![topo](topology.png)
 Ada 2 opsi untuk dalam Hand's On kali ini, yaitu dengan VirtualBox(Laptop sendiri) atau Compute Engine(GCP), Konsep pengerjaan sama.
 
 ### 1. Persiapan Virtual Machine
@@ -32,16 +33,16 @@ Ada 2 opsi untuk dalam Hand's On kali ini, yaitu dengan VirtualBox(Laptop sendir
 
 **note: ketika membuat mesin, cukup alokasikan Ram masing-masing 256MB saja, tapi untuk ubuntu server atau lainnya**
 
-#### Menggunakan Compute Engine 
+#### Menggunakan Compute Engine
 
 1. Login ke Google Cloud Console [Console](https://console.cloud.google.com)
 
 2. Create 2 instance, dengan ketentuan masing-masing instance :
-	- Nama : Nama pertama : **website** dan  Yang kedua :**database** 
+	- Nama : Nama pertama : **website** dan  Yang kedua :**database**
 	- Region : asia-southeast1
 	- Machine-type : g1-small
 	- boot disk : Ubuntu 16 LTS
-	- Firewall : 
+	- Firewall :
 		- [x] Allow HTTP trafic
 3. Klik **Create**
 
@@ -53,7 +54,7 @@ Ada 2 opsi untuk dalam Hand's On kali ini, yaitu dengan VirtualBox(Laptop sendir
 ### 3. Configuration
 
 #### Global (Compute engine dan VirtualBox)
-1. Check koneksi 
+1. Check koneksi
 ```
 ping 1.1.1.1
 ```
@@ -91,7 +92,7 @@ sh ipconfiguration.sh
 
 Lakukan hal yang sama juga pada Mesin kedua hanya ubah beberapa hal, pada file konfigurasi ada penjelasan. Pada Compute Engine tidak perlu di konfigurasi karena otomatis
 
-### 4. Install Package 
+### 4. Install Package
 
 1. Pada VirtualMachine atau Instance pertama
 
@@ -155,7 +156,7 @@ catatan : untuk ip internal pada Compute Engine, bisa dilihat pada dashboard Com
 ip addr
 ```
 
-lihat ip yang pertama 
+lihat ip yang pertama
 
 Restart service
 ```
@@ -181,7 +182,7 @@ lalu tuliskan perintah sesuai dengan yang ada pada file **database.sql**
 5. Jika sudah coba check pada Browser dengan mengakses aplikasi tersebut
 
 
-Jika ada yang perlu ditanyakan, bisa ke 
+Jika ada yang perlu ditanyakan, bisa ke
 - Telegram  : @sulaiman_26
 - Rahmadillah Maulana
 
