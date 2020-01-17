@@ -90,7 +90,7 @@ nano Dockerfile
 ```
 
 **fill the file with the following code**
-``
+```
 #Use whalesay image as a base image
 FROM docker/whalesay:latest
 
