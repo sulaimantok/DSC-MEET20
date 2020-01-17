@@ -10,8 +10,11 @@ Pada pertemuan kali ini, akan fokus mempelajari bagaimana mendeploy aplikasi sed
 
 
 ## Step
-Untuk gambaran pengerjaan ada di sini
+Untuk gambaran pengerjaan Sebagai berikut:
+
 ![topo](topology.png)
+
+
 Ada 2 opsi untuk dalam Hand's On kali ini, yaitu dengan VirtualBox(Laptop sendiri) atau Compute Engine(GCP), Konsep pengerjaan sama.
 
 ### 1. Persiapan Virtual Machine
