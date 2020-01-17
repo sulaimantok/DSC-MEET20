@@ -5,9 +5,9 @@ Docker is one of the tools to use containers, what is containers ?
 containers is
 ```
 a lightweight, stand-alone, executable package of a
-piece of sofwaae that includes eveaything needed to
-aun it: code, auntme, system tools, system libaaaies,
-setngs.
+piece of software that includes everything needed to
+run it: code, runtime, system tools, system libraries,
+settings.
 ```
 ### Why using Docker ?
 #### lightweight
