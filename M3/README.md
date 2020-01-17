@@ -90,13 +90,14 @@ nano Dockerfile
 ```
 
 **fill the file with the following code**
-``
+```
 FROM docker/whalesay:latest
 
 
 RUN apt -y update && apt install -y fortunes
 
 CMD /usr/games/fortune -a | cowsay
+
 ```
 3. Build Image and Run Image
 ```
@@ -128,25 +129,20 @@ nano Dockerfile
 
 **fill the file with the following code**
 ```
-**Use an official Python runtime as a parent image**
 FROM python:2.7-slim
 
-**Set the working directory to /app**
 WORKDIR /app
 
-**Copy the current directory contents into the container at /app**
+
 ADD . /app
 
-**Install any needed packages specified in requirements.txt**
+
 RUN pip install --trusted-host pypi.python.org -r requirements.txt
 
-**Make port 80 available to the world outside this container**
 EXPOSE 80
 
-**Define environment variable**
 ENV NAME World
 
-**Run app.py when the container launches**
 CMD ["python", "app.py"]
 ```
 3. Create additional file needs from the application
@@ -174,7 +170,6 @@ from redis import Redis, RedisError
 import os
 import socket
 
-# Connect to Redis
 redis = Redis(host="redis", db=0, socket_connect_timeout=2, socket_timeout=2)
 
 app = Flask(__name__)
