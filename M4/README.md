@@ -248,7 +248,7 @@ Try access again:
 ```
 http://localhost:8080
 ```
-if success, deploy again with same tutorial [Deploy](#deploy-and-run-sample-app-on-app-engine-(stage-2))
+if success, deploy again with same tutorial [Deploy](###deploy-and-run-sample-app-on-app-engine-(stage-2))
 
 
 ### Adding Firebase to your Web Service (Stage 4)
