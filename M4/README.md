@@ -3,18 +3,26 @@
 ## Overview
 
 ![Sample_use_case](images/M4-4.png)
+
+
 Build and deploy applications on a fully managed platform. Scale your applications seamlessly from zero to planet scale without having to worry about managing the underlying infrastructure. With zero server management and zero configuration deployments, developers can focus only on building great applications without the management overhead. App Engine enables developers to stay more productive and agile by supporting popular development languages and a wide range of developer tools.
 
 - Open and familiar languages and tools
+
 ![Multilanguage](images/M4-1.png)
+
 Quickly build and deploy applications using many of the popular languages like Java, PHP, Node.js, Python, C#, .Net, Ruby, and Go or bring your own language runtimes and frameworks if you choose. Get started quickly with zero configuration deployments in App Engine. Manage resources from the command line, debug source code in production, and run API backends easily, using industry-leading tools such as Cloud SDK, Cloud Source Repositories, IntelliJ IDEA, Visual Studio, and PowerShell.
 
 - Just add code
+
 ![Just_add](images/M4-2.png)
+
 Focus just on writing code, without the worry of managing the underlying infrastructure. With capabilities such as automatic scaling-up and scaling-down of your application between zero and planet scale, fully managed patching and management of your servers, you can offload all your infrastructure concerns to Google. Protect your applications from security threats using App Engine firewall capabilities, identity and access management (IAM) rules, and managed SSL/ TLS certificates.
 
 - Pay only for what you use
+
 ![Pay](images/M4-3.png)
+
 Choose to run your applications in a serverless environment without the worry of over or under provisioning. App Engine automatically scales depending on your application traffic and consumes resources only when your code is running. You will only need to pay for the resources you consume.
 
 ## Features
@@ -63,3 +71,56 @@ gcloud components install app-engine-python
 
 - Setup your python environment, in local machine
 [Linux](Linux/README.md) , [Windows](Windows/README.md), or [MacOs](Mac/README.md)
+
+## Sample App 1 , Hello World
+
+### Run Hello World on your local machine (Stage 1)
+
+1. Clone the Hello World sample app repository to your local machine.
+
+```
+git clone https://github.com/sulaimantok/DSC-MEET20.git
+```
+2. Change to the directory that contains the sample code.
+
+```
+cd DSC-MEET20/M4/Apps/hello_world/
+```
+3. install Requirements
+
+```
+pip install  -r requirements.txt
+```
+
+4. Run the Application:
+
+```
+python main.py
+```
+
+5. In your web browser, enter the following address: 
+
+```
+http://localhost:8080
+```
+or
+
+```
+curl http://localhost:8080
+```
+
+### Deploy and run Hello World on App Engine (Stage 2)
+
+1. In same directory(project directory), in this case hello_world
+
+```
+gcloud app deploy
+```
+
+2.  Launch your browser to view the app at https://myproject.REGION_ID.r.appspot.com
+
+note: in this case "myproject" is project ID, you can change with own project ID
+
+```
+gcloud app browse
+```
