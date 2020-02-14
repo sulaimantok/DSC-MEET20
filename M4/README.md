@@ -467,7 +467,7 @@ Try access again:
 ```
 http://localhost:8080
 ```
-if success, deploy again with same tutorial [Deploy](#Deploy and run Sample app on App Engine (Stage 2))
+if success, deploy again with same tutorial [Deploy](#deploy-and-run-sample-app-on-app-engine)
 
 ### Storing and retrieving user-specific data (Stage 5)
 
@@ -556,8 +556,7 @@ Try access again:
 ```
 http://localhost:8080
 ```
-if success, deploy again with same tutorial [Deploy](#Deploy and run Sample app on App Engine (Stage 2))
-
+if success, deploy again with same tutorial [Deploy](#deploy-and-run-sample-app-on-app-engine)
 
 To access full configuration code access [this link](https://github.com/sulaimantok/DSC-MEET20/tree/master/M4/Apps/fix_building_app)
 
