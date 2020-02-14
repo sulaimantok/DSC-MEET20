@@ -164,7 +164,8 @@ curl http://localhost:8080
 
 ```
 
-### Deploy and run Sample app on App Engine (Stage 2)
+### Deploy and run Sample app on App Engine
+### Stage 2
 
 1. In same directory(project directory), in this case building_app
 
@@ -248,7 +249,7 @@ Try access again:
 ```
 http://localhost:8080
 ```
-if success, deploy again with same tutorial [Deploy](###deploy-and-run-sample-app-on-app-engine-(stage-2))
+if success, deploy again with same tutorial [Deploy](#deploy-and-run-sample-app-on-app-engine)
 
 
 ### Adding Firebase to your Web Service (Stage 4)
