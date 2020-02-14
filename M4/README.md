@@ -117,9 +117,10 @@ curl http://localhost:8080
 gcloud app deploy
 ```
 
-2.  Launch your browser to view the app at https://myproject.REGION_ID.r.appspot.com
+2.  Launch your browser to view the app at https://myproject.southeast1-a.r.appspot.com
 
 note: in this case "myproject" is project ID, you can change with own project ID
+, and "southeast1-a" is Region
 
 ```
 gcloud app browse
