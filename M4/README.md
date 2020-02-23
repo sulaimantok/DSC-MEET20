@@ -70,7 +70,7 @@ gcloud components install app-engine-python
 ```
 
 - Setup your python environment, in local machine
-[Linux](Linux/README.md) , [Windows](Windows/README.md), or [MacOs](Mac/README.md)
+[Linux](install/Linux/README.md) , [Windows](install/Windows/README.md), or [MacOs](install/Mac/README.md)
 
 ## Sample App 1 , Hello World
 
